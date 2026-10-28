@@ -1,0 +1,33 @@
+---
+name: void
+bio: Overambitious old man learning about cyber security
+creations:
+  - title: SSH Portfolio/Website
+    description: An interactive SSH-accessible portfolio built with Go, Bubble Tea,
+      and Lipgloss and the help of Antigravity.
+    content: Inspired by ssh.moriliu.com, where i first seen this done.
+  - title: AI Desktop Companion with custom knowledgebase.
+    description: An animated Companion Chatbot using Anthropic with local access to
+      a obsidian vault. Built with Python.
+    content: Fun and somewhat useful chat companion with access to my collected cyber-security
+      write-ups.
+  - title: Misc. work-related python scripts for scraping and automation.
+    description: Sometimes including AI especially for automated content updates,
+      sometimes simple automation scripts.
+    content: Just trying to keep up with a large project and a small team.
+reflections:
+  - title: DarkForge Clothing - Clothingbrand for Metalheads by a friend.
+    url: https://www.darkforge-clothing.com
+  - title: Kisae - Artshop of a friend
+    url: https://darkforge-clothing.com/Studio-Kisae
+  - title: Under false Colors - Metalcore Band by a another friend.
+    url: 'Spotify: https://spotify.link/TVeb3ahwsDb'
+  - title: Original site i used as inspiration from moriliu.
+    url: ssh.moriliu.com
+contacts:
+  - platform: GitHub
+    url: https://github.com/null-void-glitch
+  - platform: Email
+    url: alexander.stumm@proton.me
+  - platform: Instagram
+    url: '@nihilist.utopia'

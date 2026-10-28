@@ -1,0 +1,14 @@
+Metadata-Version: 2.4
+Name: desktop-pet-cli
+Version: 0.2.0
+Summary: Terminal companion for LLM chat with Obsidian RAG, RSS, and tool use.
+Requires-Python: >=3.11
+Requires-Dist: litellm
+Requires-Dist: chromadb
+Requires-Dist: feedparser
+Requires-Dist: rich
+Requires-Dist: prompt_toolkit
+Requires-Dist: click
+Requires-Dist: pyyaml
+Requires-Dist: requests
+Requires-Dist: anthropic

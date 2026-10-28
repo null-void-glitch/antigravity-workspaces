@@ -1,0 +1,20 @@
+[Unit]
+Description=Portfolio SSH TUI Server
+After=network.target
+
+[Service]
+Type=simple
+User=portfolio
+Group=portfolio
+# Change the working directory to where your portfolio files are located
+WorkingDirectory=/opt/portfolio-tui
+# ExecStart points to the binary
+ExecStart=/opt/portfolio-tui/portfolio-tui
+Restart=on-failure
+RestartSec=5
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=portfolio-tui
+
+[Install]
+WantedBy=multi-user.target

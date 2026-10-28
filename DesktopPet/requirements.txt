@@ -1,0 +1,8 @@
+litellm
+anthropic
+chromadb
+rich
+prompt_toolkit
+click
+pyyaml
+requests

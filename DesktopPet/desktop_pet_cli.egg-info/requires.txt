@@ -1,0 +1,9 @@
+litellm
+chromadb
+feedparser
+rich
+prompt_toolkit
+click
+pyyaml
+requests
+anthropic

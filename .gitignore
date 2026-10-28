@@ -1,0 +1,10 @@
+# Large build artifacts
+DesktopPet-archive/DesktopPet-x86_64.AppImage
+DesktopPet-archive/build/
+DesktopPet-archive/dist/
+DesktopPet-archive/DesktopPet.AppDir/
+__pycache__/
+*.pyc
+*.pyo
+node_modules/
+.venv/

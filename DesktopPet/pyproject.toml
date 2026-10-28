@@ -1,0 +1,25 @@
+[project]
+name = "desktop-pet-cli"
+version = "0.2.0"
+description = "Terminal companion for LLM chat with Obsidian RAG, live threat-intel dashboard, and tool use."
+requires-python = ">=3.11"
+dependencies = [
+    "litellm",
+    "chromadb",
+    "rich",
+    "prompt_toolkit",
+    "click",
+    "pyyaml",
+    "requests",
+    "anthropic",
+]
+
+[project.scripts]
+pet = "pet.cli:main"
+
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["pet*"]
