@@ -8,3 +8,13 @@ __pycache__/
 *.pyo
 node_modules/
 .venv/
+venv/
+
+# Credentials / secrets
+FB Katalog/credentials.json
+FB Katalog/token.json
+
+# Large data exports
+FB Katalog/export*.xml
+FB Katalog/regionalimmobilien24*.csv
+FB Katalog/ri24_*.csv
